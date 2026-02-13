@@ -1,0 +1,92 @@
+body {
+  /* background-image: url("./template.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+}
+
+.border {
+  width: 100%;
+  height: calc(100vw / 1.33);
+  /* width: 1920px;
+    height: 2560px; */
+  /* outline: 2px solid lime; */
+  padding: 7% 1% 0%;
+  font-family: "Inter", sans-serif;
+}
+
+.border > .main-container {
+  /* outline: 2px solid aqua; */
+  width: 100%;
+  height: 100%;
+}
+
+.main-container > .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 2px solid black;
+}
+
+.main-container > .header > .title {
+  font-size: 2rem;
+}
+
+.main-container > .header > .week-of {
+  display: flex;
+  width: 30%;
+  padding-bottom: 4px;
+}
+
+.main-container .habits {
+  padding: 2%;
+}
+
+.main-container .habits .table {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10fr repeat(7, 2fr) repeat(2, 3fr);
+}
+
+.main-container .habits .table > .heading {
+  font-weight: 600;
+  text-align: center;
+  border-bottom-width: 2px;
+}
+
+.main-container .habits .table > .heading:first-of-type {
+  text-align: unset;
+}
+
+.main-container .habits .table div {
+  border: 1px solid gray;
+  padding: 6px;
+}
+
+.main-container .calendar-todos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-container .calendar-todos div {
+    padding: 2%;
+}
+
+.main-container .calendar-todos .heading {
+    font-weight: 600;
+}
+
+.main-container .calendar-todos .calendar-section .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.main-container .calendar-todos .calendar-section .calendar .heading {
+    border-bottom-width: 2px;
+}
+
+.main-container .calendar-todos .calendar-section .calendar div {
+    border: 1px solid gray;
+    text-align: center;
+    padding: 10% 0%;
+}

@@ -1,0 +1,20 @@
+.border {
+    width: 100%;
+    height: 133vw;
+    /* width: 1920px;
+    height: 2560px; */
+    outline: 2px solid lime;
+    padding: 5% 5% 5% 10%;
+    font-family: "Inter", sans-serif;
+}
+
+.border > .main-container {
+    outline: 2px solid aqua;
+    width: 100%;
+    height: 100%;
+}
+
+.border > .main-container > .header {
+    border-bottom: 2px solid black;
+    height: 20%;
+}
