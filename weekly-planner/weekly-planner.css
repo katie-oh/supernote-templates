@@ -88,6 +88,5 @@ body {
 .main-container .calendar-todos .calendar-section .calendar div {
   border: 1px solid gray;
   text-align: center;
-  /* padding: 10% 0%; */
   padding: var(--cell-padding);
 }
