@@ -1,3 +1,7 @@
+:root {
+  --cell-padding: 10px;
+}
+
 body {
   /* background-image: url("./template.png"); */
   background-size: cover;
@@ -8,15 +12,11 @@ body {
 .border {
   width: 100%;
   height: calc(100vw / 1.33);
-  /* width: 1920px;
-    height: 2560px; */
-  /* outline: 2px solid lime; */
   padding: 7% 1% 0%;
   font-family: "Inter", sans-serif;
 }
 
 .border > .main-container {
-  /* outline: 2px solid aqua; */
   width: 100%;
   height: 100%;
 }
@@ -34,7 +34,7 @@ body {
 
 .main-container > .header > .week-of {
   display: flex;
-  width: 30%;
+  width: 40%;
   padding-bottom: 4px;
 }
 
@@ -60,33 +60,33 @@ body {
 
 .main-container .habits .table div {
   border: 1px solid gray;
-  padding: 6px;
+  padding: var(--cell-padding);
 }
 
 .main-container .calendar-todos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .main-container .calendar-todos div {
-    padding: 2%;
+  padding: 2%;
 }
 
 .main-container .calendar-todos .heading {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .main-container .calendar-todos .calendar-section .calendar {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
 }
 
 .main-container .calendar-todos .calendar-section .calendar .heading {
-    border-bottom-width: 2px;
+  border-bottom-width: 2px;
 }
 
 .main-container .calendar-todos .calendar-section .calendar div {
-    border: 1px solid gray;
-    text-align: center;
-    padding: 10% 0%;
+  border: 1px solid gray;
+  text-align: center;
+  padding: var(--cell-padding);
 }
