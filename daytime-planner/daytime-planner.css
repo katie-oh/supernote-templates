@@ -1,0 +1,23 @@
+:root {
+  --cell-padding: 10px;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+}
+
+.border {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.border > .main-container {
+  padding: 2% 2% 0 7%;
+}
+
+.border .main-container .time {
+    border-bottom: 0.5px solid gray;
+    padding-top: 20px;
+}
