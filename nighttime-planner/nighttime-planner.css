@@ -1,0 +1,35 @@
+:root {
+  --cell-padding: 10px;
+}
+
+body {
+  text-transform: uppercase;
+}
+
+.border {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.border > .main-container {
+  padding: 2% 2% 0 7%;
+}
+
+.border .main-container .time {
+  border-bottom: 0.5px solid gray;
+  padding: 30px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Time label */
+.border .main-container .time > div:first-of-type {
+  padding-right: 15px;
+}
+
+/* Line by the time label */
+.border .main-container .time > div:last-of-type {
+  width: 100%;
+  border-top: 0.5px solid gray;
+}
