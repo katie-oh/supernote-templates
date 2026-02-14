@@ -18,5 +18,5 @@ If you want to tweak the HTML/CSS and use it for yourself, here are some steps t
 
 
 And now you can move this PDF to your Mystyle folder and use it as a template!
-<img width="5120" height="3840" alt="Daily Planner_Page_9" src="./sample.png" />
+<img width="5120" height="3840" alt="Daily Planner_Page_9" src="./test.png" />
 
