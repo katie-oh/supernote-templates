@@ -7,5 +7,6 @@
 </script>
 
 <Week 
-	startDate="2026-02-16"
+	startDay="M"
+	startDate={new Date("2026-02-16")}
  />

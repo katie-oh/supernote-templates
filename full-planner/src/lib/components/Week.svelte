@@ -2,6 +2,7 @@
 	import { addDaysToDate } from '$lib/helpers/date.helpers';
 	import { weekdays, type Day, type Weekday } from '$lib/types/dates.types';
 	import MorningPlanner from './MorningPlanner.svelte';
+	import NightPlanner from './NightPlanner.svelte';
 
 	type Props = {
 		startDay: Weekday;
@@ -17,4 +18,5 @@
 
 {#each days as day}
 	<MorningPlanner date={day.date}/>
+	<NightPlanner date={day.date}/>
 {/each}

@@ -13,5 +13,6 @@
 		margin: 0;
 		box-sizing: border-box;
 		break-after: page;
+		font-family: 'Inter', sans-serif;
 	}
 </style>
